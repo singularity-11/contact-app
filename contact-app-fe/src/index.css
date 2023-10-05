@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Glysa";
+  src: url('../src/fonts/Glysa\ -\ trial.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url('../src/fonts/LexendDeca-Light.ttf') format('opentype');
+}
+
+body {
+  font-family: "Glysa", "Lexend Deca", sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", inherit;
+}
+
+
+/* html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
